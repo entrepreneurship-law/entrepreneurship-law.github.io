@@ -1,0 +1,186 @@
+
+body {
+    font-family: 'Prompt', sans-serif;
+    line-height : 1.7em;
+    font-weight : 100;
+    border-top      : 40px solid #008A6D;
+    height: auto;
+    }
+#foto {
+    height: 30vh;
+    opacity: 0.9;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin : 0 0 15px;
+    color  : #008A6D;
+    }
+
+h1 {
+    font-size   : 30px;
+    line-height : 1em;
+    font-weight : 700;
+    color: #008A6D;
+    }
+
+h2 {
+    font-size   : 22px;
+    line-height : 1.5em;
+    font-weight : 400;
+     color: #008A6D;
+    text-align:center;
+    }
+
+h3 {
+    font-size   : 16px;
+    line-height : 2em;
+    color: black;
+    text-align:center;
+   
+    }
+h4{
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+a {
+
+    text-decoration    : none;
+    -webkit-transition : all 0.3s ease 0s;
+    -moz-transition    : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition         : all 0.3s ease 0s;
+    padding        : 10px 30px;
+    margin-bottom  : 0;
+    font-size      : 16px;
+    border-radius  : 0;
+    font-weight    : 500;
+    border-width   : 2px;
+    text-transform : uppercase;
+     background-color : #008A6D;
+    border-color     : #008A6D;
+    color: #E2EAE7;
+    border-radius: 20px;
+    }
+a,
+a:active,
+a:focus,
+a:active {
+
+    color        : #E2EAE7;
+     background-color : #008A6D;
+    border-color     : #008A6D;
+    }
+
+a:hover,
+a:focus {
+    text-decoration: none;
+       background-color : #E2EAE7;
+    color            : #008A6D;
+    }
+
+#traco {
+    width: 100%;
+    align-content: center;
+    align-self: center;
+}
+#traco1 {width: 500px;
+margin-bottom: 50px;}
+.gray-bg {
+    background-color :  #E2EAE7;
+    border-top       : 1px solid #eeeeee;
+    border-bottom    : 1px solid #eeeeee;
+    }
+
+.white-bg {
+    background-color :  #E2EAE7;
+    }
+
+
+#main-wrapper {
+    background :  #E2EAE7;
+    overflow   : hidden;
+    }
+.jumbotron {
+    background-color: #E2EAE7;
+    background-size       : cover;
+    padding               : 0;
+    margin: 0;
+    height                : 100%;
+    min-height            : 700px;
+    vertical-align        : middle;
+    position              : relative;
+    background-attachment : fixed;
+    background-repeat     : no-repeat;
+    background-position   : center center;
+    overflow-y: auto;
+    }
+
+.jumbotron .content {
+    color             : #008A6D;
+    position          : absolute;
+    top               : 50%;
+    left              : 0;
+    right             : 0;
+    height            : 100%;
+    width             : 80%;
+    margin            : 0 auto;
+    padding           : 0 10%;
+    margin-top: 50px;
+    transform         : translateY(-50%);
+    -webkit-transform : translateY(-50%);
+    -moz-transform    : translateY(-50%);
+   
+    
+    }
+
+
+
+@media (max-width : 600px) {
+    body {
+        height:100%;
+        border: none;
+    }
+    h1 {
+    font-size   : 25px;
+    line-height : 1.2em;
+    font-weight : 700;
+    color: #008A6D;
+    }
+
+h2 {
+    font-size   : 18px;
+    line-height : 1.5em;
+    font-weight : 400;
+     color: #008A6D;
+    text-align: center;
+    }
+
+h3 {
+    font-size   : 12px;
+    line-height : 2em;
+    color: black;
+    text-align: center;
+   
+    }
+h4{
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+#foto {
+    height: 100px;
+}
+    .jumbotron .content {
+        min-height : auto;
+
+        }
+    a {
+    visibility: collapse;
+    }
+
+    #traco1 {width: 200px;}}
+
