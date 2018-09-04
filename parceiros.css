@@ -178,6 +178,7 @@ h3 {
     line-height : 2em;
     color: black;
     text-align: center;
+    margin-top: -160px;
    
     }
 h4{
@@ -195,5 +196,9 @@ h4{
     visibility: collapse;
     }
 
-    #traco1 {width: 200px;}}
-
+    #traco1 {width: 200px;}
+    
+.client-logo img {
+    width: 0px;
+    visibility: 
+        hidden;}}

@@ -174,8 +174,14 @@ h4{
         min-height : auto;
 
         }
-    a {
-    visibility: hidden;
+    a {  text-decoration    : underline;
+    padding: 0;
+    font-size      : 12px;
+    text-transform : uppercase;
+     background-color : transparent;
+    border-color     : transparent;
+    color: #008A6D;
+
     }
 
     #traco1 {width: 200px;}}
