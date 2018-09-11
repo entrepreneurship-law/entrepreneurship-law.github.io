@@ -6,6 +6,7 @@ body {
     border-top      : 40px solid #008A6D;
     height: auto;
     background-color: #E2EAE7; 
+    overflow-x: hidden;
     }
 #foto {
     height: 30vh;
@@ -116,47 +117,19 @@ margin-bottom: 50px;}
     vertical-align: middle;
 }
 .client-logo img {
-    width              : 220px;
+    width              : 100px;
     vertical-align: middle;
     height: 100%;
     background-blend-mode: multiply;
-     padding: 50px;
+     padding: 0px;
     align-content: center;
     }
-
-
-@media (max-width : 992px) {
-    #section-parceiros {
-    width: 100%;
-    align-content: center;
-    align-self: center;
-    align-items: center;
-    vertical-align: middle;
-}
-    .client-logo img {
-    width              : 100%;
-     margin-left: 0;
-    align-content: center;
-    background-blend-mode: multiply;
-     padding:0;
-    align-items: center;
-    }
-    .col-md-3 {
-        align-content: center;
-        align-items: center;
-        align-self: center;
-        width: 100%;
-        padding: 20%;
-    }
-   
-    }
-
-
 
 @media (max-width : 600px) {
     body {
         height:100%;
         border: none;
+        margin: 10px;
     }
     h1 {
     font-size   : 25px;
@@ -177,12 +150,12 @@ h3 {
     font-size   : 12px;
     line-height : 2em;
     color: black;
-    text-align: center;
-    margin-top: -160px;
+    text-align: left;
+    margin-top: 0px;
    
     }
 h4{
-    text-align: center;
+    text-align: left;
     color: black;
     font-size: 12px;
     font-weight: bold;
@@ -190,15 +163,16 @@ h4{
 
     .jumbotron .content {
         min-height : auto;
+        margin: 5px;
 
         }
-    a {
-    visibility: collapse;
-    }
+
 
     #traco1 {width: 200px;}
     
 .client-logo img {
+    visibility: collapse;
     width: 0px;
-    visibility: 
-        hidden;}}
+    }
+
+}
