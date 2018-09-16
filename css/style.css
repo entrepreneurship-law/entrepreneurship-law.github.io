@@ -575,6 +575,7 @@ h6 {
     color: white;
     width: 320px;
     height: 250px;
+    margin-left: 10px;
     }
 
 @media (max-width : 766px) {
