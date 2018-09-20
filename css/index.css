@@ -153,6 +153,7 @@ li {
 @media (max-width : 600px) {
     body{
         border:none;
+        height: 750px;
     }
     .jumbotron .content {
         min-height : auto;
